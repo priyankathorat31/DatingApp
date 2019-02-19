@@ -3,6 +3,8 @@ import { HttpInterceptor, HttpRequest, HttpHandler, HttpEvent, HttpErrorResponse
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { SERVER_TRANSITION_PROVIDERS } from '@angular/platform-browser/src/browser/server-transition';
+import { Key } from 'protractor';
+
 
 @Injectable()
 export class ErrorInterceptor implements HttpInterceptor {
@@ -35,7 +37,7 @@ export class ErrorInterceptor implements HttpInterceptor {
 }
 
 export const ErrorInterceptorProvider = {
-    provide:  HTTP_INTERCEPTORS,
+    provide: HTTP_INTERCEPTORS,
     useClass: ErrorInterceptor,
     multi: true
 }
