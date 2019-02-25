@@ -1,0 +1,12 @@
+priyanka55411@gmail.com
+priyali55
+
+assigned cloud name:de0ntasvs
+
+Cloud name:de0ntasvs
+API Key: 597398946941391
+
+API Secret: uOzS2nBW75xdvVdF8NFoLCgnq8A
+
+Environment variable:	
+CLOUDINARY_URL=cloudinary://597398946941391:uOzS2nBW75xdvVdF8NFoLCgnq8A@de0ntasvs
