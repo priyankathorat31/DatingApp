@@ -31,8 +31,8 @@
         <div class="col">
             <div class="btn-group float-right">
               <button type="button" name="orderBy" class="btn btn-primary"
-               [(ngModel)]="userParams.orderBy" btnRadio="lastActive">Last Active</button>
-              <button type="button" name="orderBy" class="btn btn-primary" (click)="loadUsers()"
+               [(ngModel)]="userParams.orderBy" (click)="loadUsers()" btnRadio="lastActive">Last Active</button>
+              <button type="button" name="orderBy" class="btn btn-primary" 
                [(ngModel)]="userParams.orderBy" (click)="loadUsers()" btnRadio="created">Newest Members</button>
             </div>
           </div>
